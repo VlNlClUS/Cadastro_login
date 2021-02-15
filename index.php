@@ -1,7 +1,9 @@
 <?php 
-include("lib/vendor/autoload.php");
+header("Content-Type: text/html; charset=utf-8");
+include("config/config.php");
+include(DIRREQ."lib/vendor/autoload.php");
 
-use \Classes\ClassTeste;
+$dispatch = new Classes\ClassDispatch();
+include($dispatch->getInclusao());
 
-$teste = new ClassTeste();
 
