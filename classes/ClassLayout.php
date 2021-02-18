@@ -15,7 +15,7 @@ class ClassLayout{
         $html.="  <meta name='format-detection' content='telephone=no'>\n";
         $html.="  <meta neme='description' content='$description'>\n";
         $html.="  <title>$title</title>\n";
-        $html.="  <link rel='stylesheet' href='".DIRPAGE."lib/css/style.css'>";
+        $html.="  <link rel='stylesheet' href='".DIRPAGE."css/style.css'>";
         #<!-- FAVIVON -->
         #<!-- STYLESHEET -->
         $html.="</head>\n\n";

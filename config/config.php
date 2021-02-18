@@ -13,7 +13,7 @@
 
  #Atalhos
 
- define('DIRIMG', DIRPAGE.'img/');
+// define('DIRIMG', DIRPAGE.'img/');
  define('DIRCSS', DIRPAGE.'lib/css/');
  define('DIRJS', DIRPAGE.'lib/js/');
 
