@@ -3,6 +3,10 @@
 <div class="fundo">
 <form name="formLogin" action="<?php echo DIRPAGE.'controllers/controlerLogin'; ?>">
     <div class="login"> 
+        <div class="logomarca-login">
+            <img src="<?php echo DIRPAGE.'img/logomarca.png'; ?>" alt="logomarca">
+        </div>
+
         <div class="loginFormulario">
             <input type="email" name="email" id="email" placeholder="Email:" required>
             <input type="password" name="password" id="password" placeholder="Senha:" required>

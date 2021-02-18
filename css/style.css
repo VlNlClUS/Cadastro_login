@@ -1,6 +1,7 @@
 
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
 
+a{text-decoration: none; color: #333;}
 @media screen and (max-width: 480px)
 {
 /* ss */
@@ -56,6 +57,15 @@ opacity: 0.8;
         width: 70%;
         font-weight: bold;
         line-height: 40px;
+
+    }
+
+    .logomarca-login{
+        float: left;
+        width: 100%;
+        text-align: center;
+        height: 40px;
+       
 
     }
 }
