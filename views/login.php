@@ -12,7 +12,7 @@
             <input type="password" name="password" id="password" placeholder="Senha:" required>
             <input type="submit" value="Entrar">
             <div class="loginTextos">
-           <a href="<?php echo DIRPAGE.'esqueci-minha-senha'; ?>">Esqueci minha senha</a> 
+           <a class="esqueci-senha" href="<?php echo DIRPAGE.'esqueci-minha-senha'; ?>">Esqueci minha senha</a> 
        </div>
         </div>
 
