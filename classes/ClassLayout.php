@@ -30,7 +30,7 @@ class ClassLayout{
       
      
         $html="</body>\n";
-        #<!-- JAVASCRIOP -->
+       $html.="<script src='".DIRPAGE."lib/js/javascript.js'></script>";
         $html.=" </html>";
         echo $html;
     }
