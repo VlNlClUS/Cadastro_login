@@ -10,7 +10,7 @@ Cadastro de Usuarios
     <div class="cadastro">
         <input type="text" id="nome" name="nome" placeholder="Nome:" required>
         <input type="email" id="email" name="email" placeholder="Email:" required>
-        <input type="text" id="dataNascimento" name="dataNascimento:" placeholder="Data de Nascimento:" required>
+        <input type="text" id="dataNascimento" name="dataNascimento" placeholder="Data de Nascimento:" required>
         <input type="password" id="senha" name="senha" placeholder="Senha:" required>
         <input type="password" id="senhaconf" name="senhaconf" placeholder="Confirmação da Senha:" required>
         <div class="loginTextos">

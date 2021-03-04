@@ -5,7 +5,7 @@ class ClassLayout{
 
     public static function setHead($title, $description, $author='Vinicius Cavalheiro')
     {
-
+       
         $html="<!DOCTYPE html>\n";
         $html.="<html lang='pt-br'>\n";
         $html.="<head>\n";
@@ -30,6 +30,7 @@ class ClassLayout{
       
      
         $html="</body>\n";
+        $html.="<script src='".DIRPAGE."lib/js/vanilla-masker.min.js'></script>\n";
        $html.="<script src='".DIRPAGE."lib/js/javascript.js'></script>";
         $html.=" </html>";
         echo $html;
